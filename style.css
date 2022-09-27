@@ -9,7 +9,6 @@ main{
     width: 80%;
     max-width:900px;
     margin: auto;
-    background-color: blue;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -77,6 +76,7 @@ svg{
 }
 
 
+
 @media only screen and (max-width: 992px) {
     #alcim>h3{
         font-size: 1.3rem;
@@ -104,5 +104,15 @@ svg{
     }
     .tanulmanyiadatok>.contanier>.row>div{
         padding: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    main{
+        width: 100%;
+    }
+    svg{
+        width:20px; 
+        height: 20+px;
     }
   }
