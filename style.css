@@ -17,6 +17,7 @@ header{
     padding: 10px;
     background: rgb(65, 64, 66);
     color: #cd9710;
+    border-radius: 10px;
 }
 
 #nev{
